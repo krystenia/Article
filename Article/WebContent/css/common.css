@@ -1,0 +1,324 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.header {
+	height: 72px;
+	background: #458fce;
+}
+
+.header .logo {
+	color: #fff;
+	line-height: 72px;
+	font-size: 30px;
+	margin-left: 20px;
+	display: inline-block;
+	font-weight: 500;
+	float: left;
+}
+
+.header ul li {
+	list-style: none;
+	float: left;
+	color: #fff;
+	display: inline-block;
+	width: 112px;
+	height: 72px;
+	text-align: center;
+	line-height: 72px;
+	cursor: pointer;
+}
+
+.header ul li .first {
+	margin-left: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header ul li:hover {
+	background: #74b0e2;
+}
+
+.login {
+	float: right;
+	margin-right: 20px;
+	line-height: 72px;
+	color: #fff;
+}
+
+.header ul li.first {
+	margin-left: 30px;
+	background: #74b0e2;
+}
+
+.footer{
+	width:100%;
+	text-align:center;
+	margin: 0px auto;
+	position: relative;  
+    bottom: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.banner {
+	height: 380px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .content {
+	width: 1060px;
+	height: 380px;
+	margin: 10px auto;
+	position: relative;
+}
+
+.banner img {
+	width: 1024px;
+	height: 380px;
+}
+
+.banner ul li {
+	list-style: none;
+	float: left;
+}
+
+.banner ul {
+	width: 10000px;
+	overflow: hidden;
+}
+
+.btn_left, .btn_right {
+	display: inline-block;
+	width: 21px;
+	height: 100px;
+	background: url(image/left.png) no-repeat;
+	position: absolute;
+	left: -38px;
+	top: 120px;
+	opacity: 1;
+}
+
+.btn_right {
+	background-position: -29px 0;
+	background: url(image/right.png) no-repeat;
+	left: 1041px;
+	top: 120px;
+}
+
+.banner .content:hover .btn_left {
+	opacity: 1;
+	transition: all ease 0.6s;
+}
+
+.banner .content:hover .btn_right {
+	opacity: 1;
+	transition: all ease 3s;
+}
+
+.banner .content ul {
+	width: 10000px;
+	margin-left: -1024px;
+}
+
+.logo-f {
+	color:#fff;
+	font-size:300%;
+	margin-top: 80px;
+	margin-left: 90px;
+}
+.logo-s {
+	color:#fff;
+	font-size:250%;
+	margin-top: 40px;
+	margin-left: 480px;
+}
+.inputBox{
+	float:right;
+	width:320px;
+	height: 400px;
+	background:#7FA9D5;
+	margin-right: 40px;
+	padding: 40px  20px;
+	top: -100px;
+	position:relative;
+}
+
+.mt50{
+	height: 50px;
+}
+
+.ml32{
+	width:132px;
+}
+
+.h600{
+	margin: 30px 80px;
+	position: relative;
+}
+
+.category {
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+    
+.category .title {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+    text-indent:1em;
+    font-size:18px;
+    color:#666;
+}
+.category .items {
+    margin-left:10px;
+}
+.category .items .item {
+    width: 230px;
+    height: 320px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    text-align: center;
+}
+ul .item{
+	list-style: none;
+}
+
+.item-name{
+	font-size: 24px;
+	color: black;
+}
+
+.item-author{
+	width:100%;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 20px;
+	float:right;
+}
+
+.item-icon{
+	width:200px;
+	height: 280px;
+	margin: 0 10px;
+	background:red;
+}
+
+.detail-title{
+	font-size: 2em;
+	text-align: center;
+	color: #565353;
+    letter-spacing: 2px;
+    margin-top:60px;
+}
+
+.author{
+	display: inline-block;
+	float: right;
+}
+
+.author .title{
+	color: #565353;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.author .info{
+	color: #616161;
+	letter-spacing: 2px;
+	margin-right: 20px;
+}
+.publish .info{
+	color: #616161;
+	letter-spacing: 2px;
+}
+
+.publish .title{
+	color: #565353;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.line{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content{
+	margin-top: 20px;
+	position: relative;
+}
+
+.content .article-content p{
+	margin-top: 30px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-indent:2em;
+}
+
+.comment{
+	margin: 10px auto;
+}
+
+.comment-area{
+	font-size: 16px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.comment-btn{
+	background:#A2AEF4;
+	width: 50px;
+	height: 30px;
+	border: 1px solid  #6262FF;
+	margin-top: 5px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.center{
+	text-align: center;
+}
+
+.ml20{
+	margin-left: 20px;
+}
+
+.right{
+	text-align: right;
+}
+
+.comment-box{
+	border: 1px solid #E8F2FE;
+	margin: 10px auto;
+}
+
+.comment-box .index{
+	display: inline-block;
+	color: #6FBC4C;
+	font-size: 0.75em;
+}
+
+.comment-box .userid{
+	display: inline-block;
+	font-size: 0.75em;
+	color: #6FBC4C;
+}
+
+.comment-box .updatetime{
+	display: inline-block;
+	font-size: 0.75em;
+}
+
+.comment-box .content{
+	
+}
